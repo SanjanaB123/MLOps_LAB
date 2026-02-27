@@ -1,0 +1,20 @@
+{
+  "problem_type": "regression",
+  "dataset": "sklearn.datasets.fetch_california_housing",
+  "model": "RandomForestRegressor",
+  "features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ],
+  "metrics": {
+    "rmse": 0.5031771209625617,
+    "r2": 0.8067876370932284
+  },
+  "trained_at_utc": "2026-02-27T21:25:03.390225Z"
+}
