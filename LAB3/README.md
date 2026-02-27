@@ -1,3 +1,20 @@
+## Note on Model Size and GitHub
+
+Since this project uses a regression model (RandomForestRegressor), the trained model file (`house_model.pkl`) is very large. The file size is 345.29 MB, which exceeds GitHub's file size limit of 100 MB. The error:
+
+```
+remote: error: File LAB3/model/house_model.pkl is 345.29 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+error: failed to push some refs to 'https://github.com/SanjanaB123/MLOps_LAB.git'
+```
+
+**Proof:**
+
+```
+Writing objects: 100% (22/22), 74.90 MiB | 7.77 MiB/s, done.
+remote: error: File LAB3/model/house_model.pkl is 345.29 MB; this exceeds GitHub's file size limit of 100.00 MB
+```
+
 # LAB3: California Housing Price Regression API
 
 ## Overview
