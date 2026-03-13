@@ -1,1 +1,4 @@
 venv
+app/dags/model
+**__pycache__
+app/logs

@@ -1,0 +1,6 @@
+[core]
+    no_scm = True
+    remote = sanjbucket
+['remote "sanjbucket"']
+    url = gs://sanjana-lab4
+    credentialpath = ../gcp-key.json
