@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+
+
+# Virtual environments
+venv/
+
+# Models & data (track with DVC instead)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.csv
+*.parquet
+
