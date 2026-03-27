@@ -1,0 +1,10 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform providers directory
+.terraform/
+
+# Environment variables / credentials
+*.json
+.env
